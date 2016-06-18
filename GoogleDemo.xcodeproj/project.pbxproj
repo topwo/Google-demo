@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75E2BBF41D149A7900B153B1 /* asdad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asdad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E2BBF41D149A7900B153B1 /* GoogleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E2BBF81D149A7900B153B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75E2BBFA1D149A7900B153B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75E2BBFB1D149A7900B153B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		75E2BBF51D149A7900B153B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75E2BBF41D149A7900B153B1 /* asdad.app */,
+				75E2BBF41D149A7900B153B1 /* GoogleDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75E2BBF31D149A7900B153B1 /* asdad */ = {
+		75E2BBF31D149A7900B153B1 /* GoogleDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75E2BC0B1D149A7A00B153B1 /* Build configuration list for PBXNativeTarget "asdad" */;
+			buildConfigurationList = 75E2BC0B1D149A7A00B153B1 /* Build configuration list for PBXNativeTarget "GoogleDemo" */;
 			buildPhases = (
 				75E2BBF01D149A7900B153B1 /* Sources */,
 				75E2BBF11D149A7900B153B1 /* Frameworks */,
@@ -151,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = asdad;
+			name = GoogleDemo;
 			productName = asdad;
-			productReference = 75E2BBF41D149A7900B153B1 /* asdad.app */;
+			productReference = 75E2BBF41D149A7900B153B1 /* GoogleDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75E2BBEF1D149A7900B153B1 /* Build configuration list for PBXProject "asdad" */;
+			buildConfigurationList = 75E2BBEF1D149A7900B153B1 /* Build configuration list for PBXProject "GoogleDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75E2BBF31D149A7900B153B1 /* asdad */,
+				75E2BBF31D149A7900B153B1 /* GoogleDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arturiosdev.asdad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleDemo;
 			};
 			name = Debug;
 		};
@@ -345,14 +345,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arturiosdev.asdad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75E2BBEF1D149A7900B153B1 /* Build configuration list for PBXProject "asdad" */ = {
+		75E2BBEF1D149A7900B153B1 /* Build configuration list for PBXProject "GoogleDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75E2BC091D149A7A00B153B1 /* Debug */,
@@ -361,13 +361,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75E2BC0B1D149A7A00B153B1 /* Build configuration list for PBXNativeTarget "asdad" */ = {
+		75E2BC0B1D149A7A00B153B1 /* Build configuration list for PBXNativeTarget "GoogleDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75E2BC0C1D149A7A00B153B1 /* Debug */,
 				75E2BC0D1D149A7A00B153B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
